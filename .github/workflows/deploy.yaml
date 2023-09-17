@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+ name: Deploy to GitHub Pages
 
 on:
   push:
@@ -36,4 +36,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: deploy  # deploying
-				  cname: mnov88.github.com
+          cname: mnov88.github.com
