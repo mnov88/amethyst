@@ -36,4 +36,5 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: deploy  # deploying branch
-          cname: amethyst.bencuan.me
+          cname: mnov88.github.com
+
