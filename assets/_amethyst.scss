@@ -1,4 +1,4 @@
-$header-height: 40px;
+$header-height: 60px;
 
 header {
     position: fixed;
@@ -39,7 +39,7 @@ header {
 
     .menu-search {
         display: block;
-        width: 400px;
+        width: 50vw;
 
         #search-icon {
             width: 300%;
