@@ -3,7 +3,7 @@ $header-height: 40px;
 header {
     position: fixed;
     width: 100%;
-    padding: 0px 80px;
+    padding: 0px 60px;
     z-index: 9999;
     background-color: var(--header);
     margin: 0 !important;
@@ -42,7 +42,7 @@ header {
         width: 150%;
 
         #search-icon {
-            width: 100%;
+            width: 300%;
             justify-content: space-between;
         }
     }
@@ -63,7 +63,7 @@ header {
 
     header #search-icon {
         display: block;
-        margin-right: 20px;
+        margin-right: 40px;
     }
 }
 
