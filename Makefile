@@ -11,7 +11,9 @@ update: ## Update Quartz to the latest version on Github
 	git checkout -p upstream/hugo -- layouts .github Makefile assets/js assets/styles/base.scss assets/styles/darkmode.scss config.toml data
 
 update-force: ## Forcefully pull all changes and don't ask to patch
+
 	go install github.com/jackyzha0/hugo-obsidian@latest
+	
 	@git remote show upstream || (echo "remote 'upstream' not present, setting 'upstream'" && git remote add upstream https://github.com/jackyzha0/quartz.git)
 	git fetch upstream
 	git checkout upstream/hugo -- layouts .github Makefile assets/js assets/styles/base.scss assets/styles/darkmode.scss config.toml data
